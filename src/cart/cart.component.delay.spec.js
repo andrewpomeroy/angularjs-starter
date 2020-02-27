@@ -1,4 +1,4 @@
-import { createTestApp } from '../angularjs-jest-snapshot'; // change to 'angularjs-jest' to use package from npm;
+import { createTestApp } from 'angularjs-jest';
 import CartModule from './cart.module';
 import {
   CartServiceDelay500,
